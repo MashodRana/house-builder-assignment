@@ -6,6 +6,8 @@ import './Cart.css';
 
 
 const Cart = (props) => {
+
+    // Necessary Icons
     const employeeIcon = <FontAwesomeIcon icon={faUsers} />
     const costIcon = <FontAwesomeIcon icon={faMoneyBillAlt} />
 
