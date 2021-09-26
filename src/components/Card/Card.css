@@ -1,10 +1,22 @@
 
+/* .custom-card-content{
+    border-left: 4px solid green;
+    border-bottom: 4px solid green;
+    
+} */
 .card-image{
     text-align: center;
     padding: 5px;
+    background-color: rgba(0, 128, 0, 0.6);
 }
 
 .custom-card img{
     width: 150px;
     height: 150px;
+}
+
+.btn-select{
+    background-color: orange;
+    border: none;
+
 }

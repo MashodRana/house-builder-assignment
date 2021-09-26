@@ -22,10 +22,10 @@ const Container = () => {
     }
 
     return (
-        <div className='main-container container border my-5'>
+        <div className='main-container container my-5'>
             <div className="row">
                 <div className="employee-container col-8">
-                    <h1>All employess</h1>
+                    <h1 className="text-center">Available <span>Employess</span></h1>
                     <div className="row">
                         {
                             data.map(employee => <Card
