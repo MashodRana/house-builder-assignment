@@ -36,7 +36,8 @@ const Card = (props) => {
                     {/* Card button */}
                     <p className="text-center mt-3">
                         <button className="btn-select px-4 py-1 rounded"
-                            onClick={() => props.handleSelectEmployee(salary)}
+                            onClick={() => props.handleSelectEmployee(props.employee)}
+                            disabled = {props.btnDisable}
 
                         > {btnIcon} Add to Team</button>
                     </p>
