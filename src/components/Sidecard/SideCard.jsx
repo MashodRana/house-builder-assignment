@@ -14,17 +14,19 @@ const SideCard = (props) => {
     return (
         <div className="side-card">
             <div className="side-card-content col p-1 my-2 d-flex justify-content-between">
-                <img src={image} className="rounded-circle" alt="..." />
-                <div className="px-2">
-                    <p className="card-text">
-                        {name}
-                        <br />
-                        <small className="text-muted">
-                            {expertArea} | $ {salary}
-                        </small></p>
+                <div className="d-flex justify-content-space">
+                    <img src={image} className="rounded-circle" alt="..." />
+                    <div className="px-2">
+                        <p className="card-text">
+                            {name}
+                            <br />
+                            <small className="text-muted">
+                                {expertArea} | $ {salary}
+                            </small></p>
+                    </div>
                 </div>
                 <button className="btn text-danger"
-                onClick = {()=>props.removeEmployee(props.employee)}
+                    onClick={() => props.removeEmployee(props.employee)}
                 >{rmIcon}</button>
             </div>
         </div>
