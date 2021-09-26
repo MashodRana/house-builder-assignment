@@ -8,8 +8,6 @@ import './Container.css'
 
 const Container = () => {
 
-    const [btnDisable, setBtnDisable] = useState(false);
-
     // state for loaded data.
     const [data, setData] = useState([]);
 
@@ -43,7 +41,6 @@ const Container = () => {
             }
         }
 
-
         if (flag) {
             // employee is not added.
             setTotalCost(totalCost + employee.salary)
@@ -51,9 +48,18 @@ const Container = () => {
             const employees = [...teamList, employee];
             setTeamList(employees);
         }
+    }
 
-
-
+    const removeEmployee = (employee) => {
+        const employees = [];
+        for (const emp of teamList) {
+            if (employee.id !== emp.id) {
+                employees.push(emp);
+            }
+        }
+        setTotalCost(totalCost - employee.salary);
+        setEmployeeAdded(employeeAdded - 1);
+        setTeamList(employees);
 
     }
 
@@ -71,7 +77,6 @@ const Container = () => {
                                 employee={employee}
                                 handleSelectEmployee={handleSelectEmployee}
                                 key={employee.id}
-                                btnDisable={btnDisable}
                             ></Card>)
                         }
                     </div>
@@ -89,6 +94,7 @@ const Container = () => {
                         {teamList.map(employee => <SideCard
                             employee={employee}
                             key={employee.id}
+                            removeEmployee={removeEmployee}
                         ></SideCard>)}
                     </div>
                 </div>
