@@ -1,0 +1,10 @@
+
+.card-image{
+    text-align: center;
+    padding: 5px;
+}
+
+.custom-card img{
+    width: 150px;
+    height: 150px;
+}

@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "name": "Christian Buehner",
+        "age": 58,
+        "expertArea": "Programmer Analyst III",
+        "salary": "$6694.86",
+        "image": "./images/christian-buehner-DItYlc26zVI-unsplash.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Marylin Ville",
+        "age": 30,
+        "expertArea": "Account Representative II",
+        "salary": "$5956.52"
+    },
+    {
+        "id": 3,
+        "name": "Devland Leven",
+        "age": 29,
+        "expertArea": "Staff Scientist",
+        "salary": "$4734.13"
+    },
+    {
+        "id": 4,
+        "name": "North Stoneham",
+        "age": 50,
+        "expertArea": "Research Associate",
+        "salary": "$5103.08"
+    },
+    {
+        "id": 5,
+        "name": "Iorgos Paff",
+        "age": 52,
+        "expertArea": "Recruiting Manager",
+        "salary": "$2710.12"
+    },
+    {
+        "id": 6,
+        "name": "Ker Esel",
+        "age": 49,
+        "expertArea": "Sales Representative",
+        "salary": "$4149.01"
+    },
+    {
+        "id": 7,
+        "name": "Cosette Adamsson",
+        "age": 25,
+        "expertArea": "Senior Editor",
+        "salary": "$3935.20"
+    },
+    {
+        "id": 8,
+        "name": "Kale Buttrey",
+        "age": 37,
+        "expertArea": "Speech Pathologist",
+        "salary": "$8265.94"
+    },
+    {
+        "id": 9,
+        "name": "Hinda Gatecliffe",
+        "age": 57,
+        "expertArea": "Geological Engineer",
+        "salary": "$5112.49"
+    },
+    {
+        "id": 10,
+        "name": "Bernarr Polamontayne",
+        "age": 44,
+        "expertArea": "Engineer II",
+        "salary": "$1515.07"
+    }
+]
